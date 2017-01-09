@@ -15,6 +15,9 @@
 
 #### 基础篇
 1. 创建model: item 完成下列接口
+
+   ​
+
    ```
    GET /items # 获取全部item
    GET /items/:id	# 获取一个item
@@ -22,7 +25,9 @@
    DELETE /items/:id # 删除一个item
    PUT /items/:id	# 更新一个item
    ```
+
 2. 创建Model: category，category 与 item 为一对多关系，并参照上面完成相应接口
+
 3. 创建Model: cart，cart 与 item 为多对多关系，并参照上面完成相应接口
 
 #### 进阶篇

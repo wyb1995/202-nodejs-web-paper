@@ -16,8 +16,6 @@
 #### 基础篇
 1. 创建model: item 完成下列接口
 
-   ​
-
    ```
    GET /items # 获取全部item
    GET /items/:id	# 获取一个item

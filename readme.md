@@ -42,7 +42,7 @@
 
 3. 从一个空库开始完成上述过程
 
-4. 提出一个合理需求，要求用到 discriminator 和 populate，并完成
+4. 提出一个合理需求，要求用到 discriminator 和 populate，并完成之
 
 #### 出栈篇
 待定。。。

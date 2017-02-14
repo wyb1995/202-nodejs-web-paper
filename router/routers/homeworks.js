@@ -1,10 +1,10 @@
 import {Router} from 'express';
-import ItemController from '../../controller/ItemController';
+import HomeworkController from '../../controller/homework-controll';
 
 
 const router = Router();
-const itemCtrl = new ItemController();
+const homeworkCtrl = new HomeworkController();
 
-router.get('/', itemCtrl.getAll);
+router.get('/', homeworkCtrl.getAll);
 
 export default router;

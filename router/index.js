@@ -1,5 +1,5 @@
-import items from './routers/items';
+import homeworks from './routers/homeworks';
 
 export default function(app) {
-    app.use('/items', items);
+    app.use('/homeworks', homeworks);
 }

@@ -2,11 +2,12 @@ import mongoose from 'mongoose';
 import express from 'express';
 import config from 'config';
 import router from './router';
+import bodyParser from 'body-parser';
 
 mongoose.connect(config.get('mongoUri'));
 
 const app = express();
-
+app.use(bodyParser.json());
 app.get('/', (req, res)=> {
     res.send({
         'hello': 'world'
